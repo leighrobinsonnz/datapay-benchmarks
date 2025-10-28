@@ -1,0 +1,54 @@
+{
+  "Council": {
+    "Small": {
+      "automationMedian": 0.55,
+      "automationTopQuartile": 0.80,
+      "manualMedian": 0.45,
+      "manualTopQuartile": 0.20,
+      "complianceMedian": 0.70,
+      "complianceTopQuartile": 0.92
+    },
+    "Medium": {
+      "automationMedian": 0.72,
+      "automationTopQuartile": 0.90,
+      "manualMedian": 0.28,
+      "manualTopQuartile": 0.10,
+      "complianceMedian": 0.75,
+      "complianceTopQuartile": 0.95
+    },
+    "Large": {
+      "automationMedian": 0.80,
+      "automationTopQuartile": 0.92,
+      "manualMedian": 0.20,
+      "manualTopQuartile": 0.08,
+      "complianceMedian": 0.82,
+      "complianceTopQuartile": 0.96
+    }
+  },
+  "Enterprise": {
+    "Small": {
+      "automationMedian": 0.65,
+      "automationTopQuartile": 0.85,
+      "manualMedian": 0.35,
+      "manualTopQuartile": 0.15,
+      "complianceMedian": 0.74,
+      "complianceTopQuartile": 0.93
+    },
+    "Medium": {
+      "automationMedian": 0.78,
+      "automationTopQuartile": 0.90,
+      "manualMedian": 0.22,
+      "manualTopQuartile": 0.10,
+      "complianceMedian": 0.80,
+      "complianceTopQuartile": 0.95
+    },
+    "Large": {
+      "automationMedian": 0.88,
+      "automationTopQuartile": 0.94,
+      "manualMedian": 0.12,
+      "manualTopQuartile": 0.06,
+      "complianceMedian": 0.86,
+      "complianceTopQuartile": 0.97
+    }
+  }
+}
