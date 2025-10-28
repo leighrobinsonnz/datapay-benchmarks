@@ -22,7 +22,7 @@ function Bar({
     <div className="mb-4">
       <div className="flex justify-between text-sm mb-1">
         <span className="flex items-center gap-2">
-          {label} <Tooltip text={help} />
+          {label} <Tooltip text={help} side="right"/>
         </span>
         <span className="text-gray-500">{pct}%</span>
       </div>

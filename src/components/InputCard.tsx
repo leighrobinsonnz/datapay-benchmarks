@@ -19,7 +19,7 @@ export default function InputCard({
       {/* Segment */}
       <label className="text-sm flex items-center gap-2">
         Segment
-        <Tooltip text="Choose the cohort used for benchmarks: Council or Enterprise." />
+        <Tooltip text="Choose the cohort used for benchmarks: Council or Enterprise." side="right" />
       </label>
       <select
         className="w-full border rounded p-2"
@@ -33,7 +33,7 @@ export default function InputCard({
       {/* Size band */}
       <label className="text-sm flex items-center gap-2">
         Size band
-        <Tooltip text="Approximate organisation size used to pick the right benchmark medians and top-quartile values." />
+        <Tooltip text="Approximate organisation size used to pick the right benchmark medians and top-quartile values." side="right" />
       </label>
       <select
         className="w-full border rounded p-2"
@@ -48,7 +48,7 @@ export default function InputCard({
       {/* Employees */}
       <label className="text-sm flex items-center gap-2">
         Employees
-        <Tooltip text="Total headcount paid by payroll. Used for context and in some future insights; does not change benchmarks directly." />
+        <Tooltip text="Total headcount paid by payroll. Used for context and in some future insights; does not change benchmarks directly." side="right"/>
       </label>
       <input
         type="number"
@@ -62,7 +62,7 @@ export default function InputCard({
       {/* Pay cycle */}
       <label className="text-sm flex items-center gap-2">
         Pay cycle
-        <Tooltip text="Number of pay runs per year: 52 weekly, 26 fortnightly, 24 semi-monthly, 12 monthly." />
+        <Tooltip text="Number of pay runs per year: 52 weekly, 26 fortnightly, 24 semi-monthly, 12 monthly." side="right"/>
       </label>
       <select
         className="w-full border rounded p-2"
@@ -78,7 +78,7 @@ export default function InputCard({
       {/* Admin hours */}
       <label className="text-sm flex items-center gap-2">
         Admin hours / cycle
-        <Tooltip text="Hands-on time per pay run: prep, imports, validations, adjustments, approvals, and finalising." />
+        <Tooltip text="Hands-on time per pay run: prep, imports, validations, adjustments, approvals, and finalising." side="right"/>
       </label>
       <input
         type="number"
@@ -93,7 +93,7 @@ export default function InputCard({
       {/* Rework % */}
       <label className="text-sm flex items-center gap-2">
         Rework %
-        <Tooltip text="Percent of pay runs that require fixes or reruns (e.g., corrections after audit or employee queries). Lower is better." />
+        <Tooltip text="Percent of pay runs that require fixes or reruns (e.g., corrections after audit or employee queries). Lower is better." side="right"/>
       </label>
       <input
         type="number"
@@ -109,7 +109,7 @@ export default function InputCard({
       {/* Hourly rate */}
       <label className="text-sm flex items-center gap-2">
         Hourly fully-loaded rate ($)
-        <Tooltip text="Blended cost per hour for payroll admin (salary + on-costs like ACC/KiwiSaver, overheads, tooling)." />
+        <Tooltip text="Blended cost per hour for payroll admin (salary + on-costs like ACC/KiwiSaver, overheads, tooling)." side="right" />
       </label>
       <input
         type="number"
